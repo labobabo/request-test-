@@ -1,5 +1,5 @@
 #include <gtest/gtest.h>
-#include "zag.h"
+#include "revpart.h"
 #include "revpart.cpp"
 #include <iostream>
 
@@ -28,15 +28,14 @@ TEST (FUNCTIONTEST,WORK)
 
 TEST (EXITTEST, SIMBOLICS)
 {
-	string ex_triggers = "1234567890-=/.";
-	string exit_code = bar(ex_triggers);
-	ASSERT_EQ(exit_code, "error" );
+	string ex_triggers = "1234567890-=/";
+	bool exit_code = check_string(ex_triggers);
+	EXPECT_FALSE (exit_code);
 }
 
 TEST (MAXSIZETEST, SIZE)
 {
-	string size_trigger = "long";
 	string test_string ("This is test string that more than fifty symbols yep "  ); 
-	string out_put_trigger = bar(test_string);
-	ASSERT_EQ (out_put_trigger, size_trigger);
+	bool out_put_trigger = check_string(test_string);
+	EXPECT_FALSE(out_put_trigger);
 }

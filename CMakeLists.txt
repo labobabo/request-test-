@@ -16,7 +16,7 @@ set(SOURCES
 	revpart.cpp	
 )
 set(HEADERS
-	zag.h
+	revpart.h
 )
 
 add_executable(prog ${SOURCES} ${HEADERS})

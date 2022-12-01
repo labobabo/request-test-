@@ -181,7 +181,7 @@ CMakeFiles/prog.dir/main.cpp.o: ../main.cpp \
   /usr/include/c++/11/bits/ostream.tcc \
   /usr/include/c++/11/istream \
   /usr/include/c++/11/bits/istream.tcc \
-  ../zag.h
+  ../revpart.h
 
 CMakeFiles/prog.dir/revpart.cpp.o: ../revpart.cpp \
   /usr/include/stdc-predef.h \
@@ -362,7 +362,8 @@ CMakeFiles/prog.dir/revpart.cpp.o: ../revpart.cpp \
   /usr/include/c++/11/bits/basic_ios.tcc \
   /usr/include/c++/11/bits/ostream.tcc \
   /usr/include/c++/11/istream \
-  /usr/include/c++/11/bits/istream.tcc
+  /usr/include/c++/11/bits/istream.tcc \
+  ../revpart.h
 
 
 /usr/include/c++/11/bits/istream.tcc:
@@ -418,8 +419,6 @@ CMakeFiles/prog.dir/revpart.cpp.o: ../revpart.cpp \
 /usr/include/c++/11/bits/std_abs.h:
 
 /usr/include/alloca.h:
-
-../zag.h:
 
 /usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
 
@@ -706,6 +705,8 @@ CMakeFiles/prog.dir/revpart.cpp.o: ../revpart.cpp \
 /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/setjmp.h:
+
+../revpart.h:
 
 /usr/include/c++/11/bits/locale_classes.h:
 

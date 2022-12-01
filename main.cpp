@@ -1,21 +1,23 @@
 #include <iostream>
 #include <string>
 #include <stdio.h>
-#include "zag.h"
+#include "revpart.h"
 
 using namespace std; 
 int main() 
 { 
-    string sent; 
+    string *sent = new string; 
     cout << "Enter string: "; 
-    getline (cin, sent);
-    string result = bar(sent);
-     if (result == "error" || result == "long") 
-     {
-     	cout << ("\033[31mYou write wrong message , try again. " )<< endl;
-     } 
-     else
-     {
-     	cout << "After Revers: " << result << endl; 
-     }
+    getline (cin, *sent);
+    bool checking_result = check_string(*sent);
+    if ( checking_result == true )
+    {
+    	cout << "Reversing sentensis: " << bar(*sent) << endl;	
+    }
+    
+    else if ( checking_result == false )
+    {
+    	cout << ("\033[31mYou write wrong message , try again. " )<< endl;
+    }
+    delete sent;
 }

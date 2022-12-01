@@ -338,9 +338,11 @@ CMakeFiles/gt.dir/tests.cpp.o: ../tests.cpp \
   _deps/googletest-src/googletest/include/gtest/gtest-typed-test.h \
   _deps/googletest-src/googletest/include/gtest/gtest_pred_impl.h \
   _deps/googletest-src/googletest/include/gtest/gtest_prod.h \
-  ../zag.h \
+  ../revpart.h \
   ../revpart.cpp
 
+
+../revpart.h:
 
 _deps/googletest-src/googletest/include/gtest/gtest_prod.h:
 
@@ -471,8 +473,6 @@ _deps/googletest-src/googletest/include/gtest/gtest-assertion-result.h:
 /usr/include/x86_64-linux-gnu/bits/endian.h:
 
 /usr/include/x86_64-linux-gnu/gnu/stubs.h:
-
-../zag.h:
 
 /usr/include/c++/11/bits/shared_ptr_base.h:
 
