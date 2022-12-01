@@ -12,7 +12,7 @@ int main()
     bool checking_result = check_string(*sent);
     if ( checking_result == true )
     {
-    	cout << "Reversing sentensis: " << bar(*sent) << endl;	
+    	cout << "Reversing sentensis: " << reverse(*sent) << endl;	
     }
     
     else if ( checking_result == false )

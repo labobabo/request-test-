@@ -7,21 +7,21 @@ using namespace std;
 
 TEST (REVERSTEST, EQUALITY)
 {	string m = "English";
-	string h = bar(m);
+	string h = reverse(m);
 	ASSERT_NE(h, m);
 }
 
 TEST (SIZETEST, Length)
 {
 	string m = "Japan";
-	string h = bar(m);
+	string h = reverse(m);
 	ASSERT_EQ(m.length(), h.length());
 }
 
 TEST (FUNCTIONTEST,WORK) 
 {
 	string incom_line = "Ru";
-	string output_line = bar(incom_line);
+	string output_line = reverse(incom_line);
 	reverse (incom_line.begin(), incom_line.end());
 	ASSERT_EQ (output_line, incom_line);	
 } 

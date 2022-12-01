@@ -33,7 +33,7 @@ bool check_string ( string s )
 return token;
 
 }
-string bar(string s) 
+string reverse(string s) 
 {   
     for (int i = 0; i < (s.length() / 2); ++i) 
     { 
