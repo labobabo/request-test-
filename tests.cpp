@@ -1,7 +1,5 @@
-#include <gtest/gtest.h>
 #include "revpart.h"
 #include "revpart.cpp"
-#include <iostream>
 
 using namespace std;
 

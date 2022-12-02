@@ -1,6 +1,3 @@
-#include <iostream>
-#include <string>
-#include <stdio.h>
 #include "revpart.h"
 
 using namespace std; 

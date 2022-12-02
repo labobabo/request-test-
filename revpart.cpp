@@ -1,5 +1,4 @@
-#include <string> 
-#include <iostream>
+
 #include "revpart.h"
 using namespace std;
 bool check_string ( string s )
